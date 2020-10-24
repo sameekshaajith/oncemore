@@ -1,0 +1,15 @@
+.project {
+    display: flex;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 10px rgba(228, 165, 205, 0.7);
+    margin-bottom: 10px;
+}
+
+.video {
+    /* border: 1px solid pink; */
+}
+
+.caption {
+    /* border: 1px solid blue; */
+    margin-top: 22px;
+}

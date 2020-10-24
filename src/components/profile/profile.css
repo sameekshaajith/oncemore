@@ -1,0 +1,12 @@
+.profile {
+    /* border: 1px solid violet; */
+}
+
+.profileContent {
+    width: 50%;
+    background-color: #A0A0A0;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 22px;
+}

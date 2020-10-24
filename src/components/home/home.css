@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.home {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section1 {
+    width: 450px;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.section2 {
+    width: 500px;
+    height: 600px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.hello {
+    /* font-size: 82px; */
+    font-weight: bolder;
+    /* border: 1px solid black; */
+}
+
+.bit {
+    /* border: 1px solid red; */
+}
+
+.rounds {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    color: white;
+}
+
+.pink {
+    background-color: #DC143C;
+    padding: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+}
+
+.blue {
+    background-color: #40E0D0;
+    padding: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+}
+
+.yellowgreen {
+    background-color: #9ACD32;
+    padding: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+}
+
+.font {
+    font-family: "Anonymous Pro", monospace;
+}
