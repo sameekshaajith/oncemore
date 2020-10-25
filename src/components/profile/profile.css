@@ -1,9 +1,10 @@
 .profile {
     /* border: 1px solid violet; */
+    margin: 0 100px;
 }
 
 .profileContent {
-    width: 50%;
+    /* width: 50%; */
     background-color: #A0A0A0;
     color: whitesmoke;
     border-radius: 5px;

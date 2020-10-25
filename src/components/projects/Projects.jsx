@@ -1,6 +1,6 @@
 import React from 'react'
 import './projects.css'
-import video from '../media/chuntuBday.mp4'
+// import video from '../media/chuntuBday.mp4'
 import Project from './Project'
 
 function Projects() {
@@ -8,16 +8,16 @@ function Projects() {
     return (
         <div className='projects'>
             <Project
+                // video={video}
+            />
+            <br />
+            {/* <Project
                 video={video}
             />
             <br />
             <Project
                 video={video}
-            />
-            <br />
-            <Project
-                video={video}
-            />
+            /> */}
         </div>
     )
 }

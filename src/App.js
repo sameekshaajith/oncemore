@@ -9,16 +9,19 @@ import './App.css';
 function App() {
   const [headers, setHeaders] = useState(['Home', 'Opportunities'])
   const [display, setDisplay] = useState(0)
+  const [subDisplay, setSubDisplay] = useState(0)
 
   const changeDisplay = (index) => {
     setDisplay(index)
     setHeaders(['Home', 'Oppotunities'])
+    setSubDisplay(0)
   }
 
-  const goTo = (tab) => {
+  const goTo = (tab, sub) => {
     setHeaders(['Home', tab, 'Oppotunities'])
     //for Profile and Work
     setDisplay(1)
+    setSubDisplay(sub)
   }
 
   return (
@@ -42,8 +45,8 @@ function App() {
       <div className='bodyy'>
         <div className='content'>
           {display === 0 ? <Home goTo={goTo}/> : ''}
-          {display === 1 && <Profile />}
-          {display === 2 ? <Projects /> : ''}
+          {display === 1 && subDisplay === 1 && <Profile />}
+          {display === 1 && subDisplay === 2 && <Projects />}
         </div>
       </div>
       <div className='footer'>

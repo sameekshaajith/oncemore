@@ -18,11 +18,11 @@ function Home({goTo}) {
                     <h3 className='font'>a bit about me:</h3>
                 </div>
                 <div className='rounds'>
-                    <span className='pink' onClick={() => {goTo('Profile')}}>
+                    <span className='pink' onClick={() => {goTo('Profile', 1)}}>
                         <br /> 
                         <p>MY PROFILE</p>
                     </span>
-                    <span className='blue' onClick={() => {goTo('Work')}}>
+                    <span className='blue' onClick={() => {goTo('Work', 2)}}>
                         <br />
                         <p>MY WORK</p>
                     </span>
